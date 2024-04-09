@@ -1,0 +1,21 @@
+{
+  "name": "microsoft-graph-crd",
+  "version": "1.0.0",
+  "description": "for create view and delete user",
+  "main": "create.js",
+  "scripts": {
+    "test": "node create.js"
+  },
+  "keywords": [
+    "microsoft",
+    "graph",
+    "create",
+    "user"
+  ],
+  "author": "guruhkennedy",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.0.1",
+    "@microsoft/microsoft-graph-client": "^3.0.7"
+  }
+}
